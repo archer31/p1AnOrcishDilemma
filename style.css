@@ -1,16 +1,30 @@
 body {
 	font-family:"courier new";
-	color:#330000;
+	color:rgb(80,30,30);
+
 	background-color:#F8ECC2;
+   background: -webkit-linear-gradient(left, #F8ECC2 , white);
+   background: -o-linear-gradient(right, #F8ECC2, white);
+   background: -moz-linear-gradient(right, #F8ECC2, white);
+   background: linear-gradient(to right, #F8ECC2, white);
+
 }
 
 h1 {
 	text-decoration:underline;
+
 }
 
 h1.death {
 	color:red;
 	font-style:italic;
+
+}
+
+div.storyText {
+   float:left;
+   width:75%;
+
 }
 
 div.mainImage {
@@ -18,19 +32,25 @@ div.mainImage {
 	width:75%;
 }
 
-div.mainImage > img {
-	display: inline-block;
+img.mainImage {
+   display:block;
+   margin-left:auto;
+   margin-right:auto;
+	float:left;
+   width:100%;
 
-	width:50%;
-	background-color:#ffcccc
 }
 
 div.choices {
+   background-color:white;
+   border-style:outset;
 	float:right;
-	width:25%;
+	width:24%;
+
 }
 
 img.arrow {
 	width:100px;
 	height:50px;
+
 }
